@@ -1,0 +1,25 @@
+{
+    "name": "catch-of-the-day/scooter",
+    "description": "PHP Vespa client",
+    "type": "library",
+    "require": {
+        "php": ">7.0.0",
+        "guzzlehttp/guzzle": "^6.3",
+        "monolog/monolog": "^1.23"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.3"
+    },
+    "authors": [
+        {
+            "name": "Thomas Rose",
+            "email": "thomas.rose@catchoftheday.com.au"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Scooter\\" : "lib/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Scooter\\Tests\\" : "tests/" }
+    }
+}
